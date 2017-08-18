@@ -1,0 +1,7 @@
+test\testAjax1\model\Student.class
+services\MailServiceImpl.class
+test\testAjax1\model\Mail.class
+test\testAjax1\controller\HomeController.class
+test\testAjax1\config\MvcConfiguration.class
+services\MailService.class
+test\testAjax1\config\HelloWorldInitializer.class
