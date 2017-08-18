@@ -1,0 +1,134 @@
+h2 {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.jumbotron_background {
+	background-image: url("analytical-chemistry.jpg");
+	min-height: 270px;
+	padding-bottom: 0;
+	margin: 0;
+}
+
+.nav>li>a:hover {
+	color: #000;
+	background-color: #00E5E8;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.nav>li>a:focus {
+	background-color: #003F40;
+	color: #000;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.nav>li>a {
+	font-size: 22px;
+	color: #FFF;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.active {
+	color: #FFF;
+	background-color: #00E5E8;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.col-sm-12 {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	line-height: 0px;
+	text-align: center;
+	color: #000;
+	padding-top: 0px;
+}
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	color: #000;
+}
+
+.about-me>.row {
+	margin: 5px;
+}
+
+.list-group>a {
+	margin: 5px;
+}
+
+.list-group>a:hover {
+	color: #6F0000;
+	font-size: 18px;
+}
+
+.upcoming_events {
+	color: #FFF;
+	background-color: #003F40;
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+	padding: 7px;
+}
+
+.about-me {
+	padding: 15px;
+	font-size: 20px;
+	background-color: #FFF;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+}
+
+.forms {
+	padding: 15px;
+	font-size: 20px;
+	background-color: #FFF;
+	border-style: solid;
+	border-color: #000;
+	border-width: 1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.link1 {
+	text-decoration: none;
+	font-size: 18px;
+	color: #C60000;
+}
+
+.link1:hover {
+	text-decoration: none;
+	font-size: 20px;
+	color: #004801;
+}
+
+.publications {
+	font-size: 18px;
+}
+
+.publications>ul>li {
+	margin-bottom: 10px;
+}
+
+#job {
+	font-size: 35px;
+}
+
+#menu {
+	background-color: #003F40;
+	font-size: 22px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#menu>li>a {
+	color: #FFF;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#name {
+	font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	line-height: 0px;
+	text-align: center;
+	color: #000;
+	padding-top: 60px;
+}
