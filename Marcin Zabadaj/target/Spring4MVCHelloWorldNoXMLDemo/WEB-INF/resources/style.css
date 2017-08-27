@@ -27,6 +27,10 @@ h2 {
 	font-family: "Times New Roman", Times, serif;
 }
 
+.col-sm-10>h1 {
+	text-decoration: underline;
+}
+
 .active {
 	color: #FFF;
 	background-color: #00E5E8;
@@ -42,7 +46,7 @@ h2 {
 	padding-top: 0px;
 }
 
-h1{
+h1 {
 	font-family: "Times New Roman", Times, serif;
 	color: #000;
 }
@@ -109,6 +113,10 @@ h1{
 	margin-bottom: 10px;
 }
 
+.cv {
+	cursor: pointer;
+}
+
 #job {
 	font-size: 35px;
 }
@@ -117,11 +125,13 @@ h1{
 	background-color: #003F40;
 	font-size: 22px;
 	font-family: "Times New Roman", Times, serif;
+	cursor: pointer;
 }
 
 #menu>li>a {
 	color: #FFF;
 	font-family: "Times New Roman", Times, serif;
+	cursor: pointer;
 }
 
 #name {

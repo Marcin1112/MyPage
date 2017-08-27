@@ -26,22 +26,7 @@ public class HomeController {
 		return "home";
 	}
 
-	@RequestMapping(value = "/home", method = RequestMethod.GET)
-	public String home(ModelMap model) {
-		return "home";
-	}
-
-	@RequestMapping(value = "/about_me", method = RequestMethod.GET)
-	public String aboutMe(ModelMap model) {
-		return "about_me";
-	}
-
-	@RequestMapping(value = "/contact_me", method = RequestMethod.GET)
-	public String contactMe(ModelMap model) {
-		return "contact_me";
-	}
-
-	@RequestMapping(value = "/contact_me", method = RequestMethod.POST)
+	@RequestMapping(value = "/", method = RequestMethod.POST)
 	public String contactMePost(HttpServletRequest request) {
 		Mail eMail = new Mail();
 		eMail.setAutorName(request.getParameter("nameAndSurname"));
@@ -53,24 +38,6 @@ public class HomeController {
 		mailer.sendEmail(eMail);
 
 		return "contact_me";
-	}
 
-	@RequestMapping(value = "/publications", method = RequestMethod.GET)
-	public String publications(ModelMap model) {
-		return "publications";
-	}
-
-	@RequestMapping(value = "/for_students", method = RequestMethod.GET)
-	public String forStudents(ModelMap model) {
-		return "for_students";
-	}
-
-	@RequestMapping(value = "/helloagain", method = RequestMethod.GET)
-	public @ResponseBody Student sayHelloAgain(ModelMap model) {
-		Student student = new Student();
-		student.setAge(20);
-		student.setName("Name");
-		student.setVorname("Vorname");
-		return student;
 	}
 }
