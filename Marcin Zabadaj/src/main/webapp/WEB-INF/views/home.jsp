@@ -15,6 +15,11 @@
 <spring:url value="/resources/hello.js" var="helloJS" />
 <spring:url value="/resources/style.css" var="style" />
 <spring:url value="/resources/Marcin_Zabadaj.jpg" var="Marcin_Zabadaj" />
+<spring:url value="/resources/Salesforce Certified Platform Developer I.jpg" var="PD1" />
+<spring:url value="/resources/Salesforce Certified Platform Developer II.jpg" var="PD2" />
+<spring:url value="/resources/Salesforce Certified Administrator.jpg" var="Admin" />
+<spring:url value="/resources/Salesforce Certified Platform App Builder.jpg" var="AppBuilder" />
+<spring:url value="/resources/Salesforce Certified Sharing and Visibility Designer.jpg" var="Sharing" />
 <title>Marcin Zabadaj</title>
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
